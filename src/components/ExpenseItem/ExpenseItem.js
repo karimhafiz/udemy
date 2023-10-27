@@ -1,9 +1,8 @@
-import React from "react";
 import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate/ExpenseDate";
 function ExpenseItem({ expenses }) {
   return (
-    <div>
+    <div className="expenses">
       {expenses.length > 0 &&
         expenses.map((item, index) => {
           return (
